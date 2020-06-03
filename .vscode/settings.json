@@ -1,3 +1,20 @@
 {
-    "python.pythonPath": "/Users/jianhua/anaconda3/envs/flask/bin/python"
+    "python.pythonPath": "/Users/jianhua/anaconda3/envs/flask/bin/python",
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "database": "CAUSALdb",
+            "driver": "MySQL",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "226_causaldb",
+            "password": "kN3sYjz+-eJEj#f",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "115.24.151.212",
+            "username": "jianhua"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
 }
