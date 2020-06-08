@@ -3,7 +3,7 @@ from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 from flask import current_app
 from flask_login import UserMixin
 from . import db, login_manager
-import datetime
+from datetime import datetime
 
 class Permission:
     FOLLOW = 0x01
